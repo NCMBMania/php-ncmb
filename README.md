@@ -7,7 +7,7 @@ php-ncmb: Unofficial PHP SDK for [NIFTY Cloud mobile backend (NCMB)](http://mb.c
 Add line into 'require' section of your 'composer.json':
 
 ```json
-     "koyhoge/php-ncmb": "*"
+     "ncmbmania/php-ncmb": "*"
 ```
 
 then hit command:
