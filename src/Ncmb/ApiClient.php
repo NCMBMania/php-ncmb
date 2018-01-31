@@ -292,7 +292,7 @@ class ApiClient
 
         uksort($params, 'strnatcmp');
 
-        $encoded_params = '';
+        $encoded_params = [];
         foreach ($params as $k => $v) {
             if ($k === 'X-NCMB-Timestamp') {
                 $encoded_params[] = $k . '=' . $v;
