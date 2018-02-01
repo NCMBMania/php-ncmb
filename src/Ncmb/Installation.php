@@ -26,4 +26,22 @@ class Installation extends Object
         return 'installations';
     }
 
+	/**
+	 * Installation Update
+	 *
+	 * @return $this
+	 */
+	public function update() {
+		$path    = $this->getApiPath() . '/' . self::getObjectId();
+		$options = [
+			// FIXME: support operations
+			'json' => $this->getSaveData(),
+		];
+
+		$data = ApiClient::put( $path, $options );
+		$this->mergeAfterFetch( $data, false );
+
+		return $this;
+	}
+
 }
