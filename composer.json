@@ -1,7 +1,7 @@
 {
     "name": "ncmbmania/php-ncmb",
-    "description": "PHP SDK for NIFTY Cloud mobile backend (NCMB)",
-    "version": "0.2.0",
+    "description": "PHP SDK for NIFCLOUD mobile backend (NCMB)",
+    "version": "0.2.1",
     "license": "MIT",
     "authors": [
 	{

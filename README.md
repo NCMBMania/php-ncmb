@@ -1,6 +1,6 @@
-# PHP SDK for 'NIFTY Cloud mobile backend'
+# PHP SDK for 'NIFCLOUD mobile backend'
 
-php-ncmb: Unofficial PHP SDK for [NIFTY Cloud mobile backend (NCMB)](http://mb.cloud.nifty.com/).
+php-ncmb: Unofficial PHP SDK for [NIFCLOUD mobile backend (NCMB)](http://mb.cloud.nifty.com/).
 
 ## Install
 
