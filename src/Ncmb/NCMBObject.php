@@ -8,7 +8,7 @@ use Ncmb\Relation;
 /**
  * Object class
  */
-class Object implements Encodable
+class NCMBObject implements Encodable
 {
     const RESERVED_KEYS = [
         'objectId',
@@ -573,7 +573,7 @@ class Object implements Encodable
                 return new \DateTime($data['iso']);
                 break;
             case 'Pointer':
-                return Object::create($data['className'], $data['objectId']);
+                return NCMBObject::create($data['className'], $data['objectId']);
                 break;
             case 'Relation':
                 throw new Exception('Relation not allowed here');

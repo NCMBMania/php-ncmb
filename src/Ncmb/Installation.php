@@ -5,7 +5,7 @@ namespace Ncmb;
 /**
  * Installation class
  */
-class Installation extends Object
+class Installation extends NCMBObject
 {
     /**
      * Constructor

@@ -5,7 +5,7 @@ namespace Ncmb;
 /**
  * Role - Representation of an access Role.
  */
-class Role extends Object
+class Role extends NCMBObject
 {
     const NCMB_CLASS_NAME = 'role';
     const API_PATH = 'roles';

@@ -27,7 +27,7 @@ class Encoder
             return $value;
         }
 
-        if ($value instanceof \Ncmb\Object) {
+        if ($value instanceof \Ncmb\NCMBObject) {
             return $value->toPointer();
         }
 

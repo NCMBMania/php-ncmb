@@ -159,7 +159,7 @@ class Query
                 $mergeRequired = false;
                 break;
             default:
-                $obj = Object::create($className, $objectId);
+                $obj = NCMBObject::create($className, $objectId);
         }
         if ($mergeRequired) {
             $obj->mergeAfterFetch($row);
