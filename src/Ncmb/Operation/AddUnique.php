@@ -89,7 +89,7 @@ class AddUnique implements FieldOperation
     private function isNcmbObjectInArray($target, $oldValue)
     {
         foreach ($oldValue as $object) {
-            if ($object instanceof \Ncmb\Object &&
+            if ($object instanceof \Ncmb\NCMBObject &&
                 $object->getObjectId() != null) {
                 if ($object->getObjectId() == $target->getObjectId()) {
                     return true;

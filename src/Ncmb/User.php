@@ -5,7 +5,7 @@ namespace Ncmb;
 /**
  * User - Representation of a user object stored on NCMB
  */
-class User extends Object
+class User extends NCMBObject
 {
     const NCMB_CLASS_NAME = 'user';
     const API_PATH = 'users';

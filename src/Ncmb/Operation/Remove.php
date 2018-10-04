@@ -71,8 +71,8 @@ class Remove implements FieldOperation
         $newValue = [];
         foreach ($oldValue as $oldObject) {
             foreach ($this->objects as $newObject) {
-                if ($oldObject instanceof \Ncmb\Object) {
-                    if ($newObject instanceof \Ncmb\Object
+                if ($oldNCMBObject instanceof \Ncmb\NCMBObject) {
+                    if ($newNCMBObject instanceof \Ncmb\NCMBObject
                         && !$oldObject->isDirty()
                         && $oldObject->getObjectId() == $newObject->getObjectId()
                     ) {

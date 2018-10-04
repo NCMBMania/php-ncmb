@@ -4,7 +4,7 @@ namespace Ncmb;
 /**
  * Push  - Handles sending push notifications with NCMB.
  */
-class Push extends Object
+class Push extends NCMBObject
 {
     const VALID_OPTION_KEY = [
         'deliveryTime',
