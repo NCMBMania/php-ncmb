@@ -193,6 +193,12 @@ class Query
         return $this;
     }
 
+    public function orderBy($n)
+    {
+        $this->orderBy[] = $n;
+        return $this;
+    }
+    
     /**
      * Set a constraint for a field matching a given value.
      *
